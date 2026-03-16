@@ -53,18 +53,18 @@ const MUTE_PROTECTION = {
 
 const KICK_FUN_PROTECTION = {
   en: "Gay Goyim! how dare you use this command on the owner. clown ahh nigga \u{1F921}",
-  fr: "Gay Goyim! comment oses-tu utiliser cette commande sur le propri\u00e9taire. clown ahh nigga \u{1F921}",
-  es: "Gay Goyim! c\u00f3mo te atreves a usar este comando contra el due\u00f1o. payaso ahh nigga \u{1F921}",
-  ar: "Gay Goyim! \u0643\u064a\u0641 \u062a\u062c\u0631\u0624 \u0639\u0644\u0649 \u0627\u0633\u062a\u062e\u062f\u0627\u0645 \u0647\u0630\u0627 \u0627\u0644\u0623\u0645\u0631 \u0636\u062f \u0627\u0644\u0645\u0627\u0644\u0643. \u0645\u0647\u0631\u062c ahh nigga \u{1F921}",
+  fr: "Gay Goyim! comment oses-tu utiliser ce command sur le propri\u00e9taire. clown ahh nigga \u{1F921}",
+  es: "Gay Goyim! c\u00f3mo te atreves a usar este comando contra el dueño. payaso ahh nigga \u{1F921}",
+  ar: "Gay Goyim! \u0643\u064a\u0641 \u062a\u062c\u0631\u0623 \u0639\u0644\u0649 \u0627\u0633\u062a\u062e\u062f\u0627\u0645 \u0647\u0630\u0627 \u0627\u0644\u0623\u0645\u0631 \u0636\u062f \u0627\u0644\u0645\u0627\u0644\u0643. \u0645\u0647\u0631\u062c ahh nigga \u{1F921}",
   de: "Gay Goyim! wie wagst du es, diesen Befehl gegen den Besitzer zu verwenden. Clown ahh nigga \u{1F921}",
-  pt: "Gay Goyim! como voc\u00ea ousa usar esse comando no dono. palha\u00e7o ahh nigga \u{1F921}",
-  ru: "Gay Goyim! \u043a\u0430\u043a \u0442\u044b \u0441\u043c\u0435\u0435\u0448\u044c \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u044c \u044d\u0442\u0443 \u043a\u043e\u043c\u0430\u043d\u0434\u0443 \u043f\u0440\u043e\u0442\u0438\u0432 \u0432\u043b\u0430\u0434\u0435\u043b\u044c\u0446\u0430. \u043a\u043b\u043e\u0443\u043d ahh nigga \u{1F921}",
-  tr: "Gay Goyim! bu komutu sahibine kar\u015f\u0131 kullanmaya nas\u0131l c\u00fcret edersin. palyaco ahh nigga \u{1F921}",
+  pt: "Gay Goyim! como voc\u00ea ousa usar esse comando no dono. palhaço ahh nigga \u{1F921}",
+  ru: "Gay Goyim! как ты смеешь использовать эту команду против владельца. клоун ahh nigga \u{1F921}",
+  tr: "Gay Goyim! bu komutu sahibine karşı kullanmaya nasıl cüret edersin. palyaco ahh nigga \u{1F921}",
   it: "Gay Goyim! come osi usare questo comando contro il proprietario. pagliaccio ahh nigga \u{1F921}",
   "zh-cn": "Gay Goyim! \u4f60\u600e\u4e48\u6562\u5bf9\u4e3b\u4eba\u4f7f\u7528\u8fd9\u4e2a\u547d\u4ee4\u3002\u5c0f\u4e11 ahh nigga \u{1F921}",
-  ja: "Gay Goyim! \u30aa\u30fc\u30ca\u30fc\u306b\u3053\u306e\u30b3\u30de\u30f3\u30c9\u3092\u4f7f\u3046\u3068\u306f\u4f55\u4e8b\u3060\u3002\u30d4\u30a8\u30ed ahh nigga \u{1F921}",
-  ko: "Gay Goyim! \uac10\ud788 \uc8fc\uc778\uc5d0\uac8c \uc774 \uba85\ub839\uc744 \uc0ac\uc6a9\ud558\ub2e4\ub2c8. \uad11\ub300 ahh nigga \u{1F921}",
-  hi: "Gay Goyim! \u092e\u093e\u0932\u093f\u0915 \u092a\u0930 \u0907\u0938 \u0915\u092e\u093e\u0902\u0921 \u0915\u093e \u0907\u0938\u094d\u0924\u0947\u092e\u093e\u0932 \u0915\u0930\u0928\u0947 \u0915\u0940 \u0939\u093f\u092e\u094d\u092e\u0924 \u0915\u0948\u0938\u0947 \u0939\u0941\u0908\u0964 \u091c\u094b\u0915\u0930 ahh nigga \u{1F921}",
+  ja: "Gay Goyim! オーナーにこのコマンドを使うとは何事だ。ピエロ ahh nigga \u{1F921}",
+  ko: "Gay Goyim! 감히 주인에게 이 명령을 사용하다니. 광대 ahh nigga \u{1F921}",
+  hi: "Gay Goyim! मालिक पर इस कमांड का इस्तेमाल करने की हिम्मत कैसे हुई। जोकर ahh nigga \u{1F921}",
 };
 
 // ═══════════════════════════════════════════════════════════════
@@ -111,18 +111,18 @@ const DEMOTE_REPLIES = {
 
 const FUN_REPLIES = {
   pussy: "you're a wet coochie, you don't have the balls \u{1F346}",
-  shifta: "va fr ton shift vielle p*te expir\u00e9 \u23F0",
-  ntm: "Nik ta m\u00e8re \u{1F90C}",
+  shifta: "va fr ton shift vielle p*te expiré \u23F0",
+  ntm: "Nik ta mère \u{1F90C}",
 };
 
 const GAY_REPLIES = {
   en: "You're a faggot \u{1F3F3}\uFE0F\u200D\u{1F308}",
   fr: "T'es un tafiole \u{1F3F3}\uFE0F\u200D\u{1F308}",
-  es: "Eres un maric\u00f3n \u{1F3F3}\uFE0F\u200D\u{1F308}",
-  ar: "\u0623\u0646\u062a \u0644\u0648\u0637\u064a \u{1F3F3}\uFE0F\u200D\u{1F308}",
+  es: "Eres un maricón \u{1F3F3}\uFE0F\u200D\u{1F308}",
+  ar: "أنت لوطي \u{1F3F3}\uFE0F\u200D\u{1F308}",
   de: "Du bist eine Schwuchtel \u{1F3F3}\uFE0F\u200D\u{1F308}",
-  pt: "Voc\u00ea \u00e9 um viado \u{1F3F3}\uFE0F\u200D\u{1F308}",
-  ru: "\u0422\u044b \u043f\u0438\u0434\u043e\u0440 \u{1F3F3}\uFE0F\u200D\u{1F308}",
+  pt: "Você é um viado \u{1F3F3}\uFE0F\u200D\u{1F308}",
+  ru: "Ты пидор \u{1F3F3}\uFE0F\u200D\u{1F308}",
   tr: "Sen bir ibnesin \u{1F3F3}\uFE0F\u200D\u{1F308}",
   it: "Sei un finocchio \u{1F3F3}\uFE0F\u200D\u{1F308}",
 };
@@ -131,10 +131,10 @@ const FU_REPLIES = {
   en: "Go f*ck yourself \u{1F351}",
   fr: "Va te faire foutre \u{1F351}",
   es: "Vete a la mierda \u{1F351}",
-  ar: "\u0631\u0648\u062d \u0627\u0646\u064a\u0643 \u0646\u0641\u0633\u0643 \u{1F351}",
+  ar: "روح انيك نفسك \u{1F351}",
   de: "Geh dich selbst ficken \u{1F351}",
   pt: "Vai se foder \u{1F351}",
-  ru: "\u0418\u0434\u0438 \u043d\u0430 \u0445\u0443\u0439 \u{1F351}",
+  ru: "Иди на хуй \u{1F351}",
   tr: "Siktir git \u{1F351}",
   it: "Vai a farti fottere \u{1F351}",
 };
