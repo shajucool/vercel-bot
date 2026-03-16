@@ -1,0 +1,13 @@
+{
+  "name": "casper-mod-bot-vercel",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "telegraf": "^4.16.3",
+    "mongodb": "^6.12.0"
+  }
+}
