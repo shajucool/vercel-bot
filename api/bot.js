@@ -71,56 +71,89 @@ const KICK_FUN_PROTECTION = {
 //  COMMAND REPLIES
 // ═══════════════════════════════════════════════════════════════
 const MUTE_REPLIES = {
-  shutup: "Shut your stinking mouth. \u{1F910}",
-  shush: "Stop Yappin. \u{1F92B}",
-  ftg: "Ferme ta gueule big. \u{1F910}",
-  bec: "Aie bec! \u{1F636}",
-  stopbarking: "Stop barking, Bitch. \u{1F415}",
-  artdejapper: "Arr\u00eate d'aboyer pti chiwawa. \u{1F436}",
-  sybau: "shut your bitch AHHHH up. \u{1F92C}",
-  goofy: "you're gay, you can't talk faggot. \u{1F921}",
-  keh: "Ferme ta jgole senti ptite sharmouta. \u{1F922}",
-  vio: "enfant de viole detected, geule closed. \u{1F512}",
+  shutup: "Shut Your Stinkin Mouth \u{1F910}",
+  shush: "Stop Yappin \u{1F92B}",
+  ftg: "Ferme Ta Gueule big \u{1F910}",
+  bec: "Aie Bec! \u{1F636}",
+  stopbarking: "Stop Barking Bitch \u{1F415}",
+  artdejapper: "Arrete d'aboyer ptit chiwawa \u{1F436}",
+  sybau: "Shut Your Bitch Ahhh Up \u{1F92C}",
+  goofy: "You're Gay, you can't talk faggot \u{1F921}",
+  keh: "ferme ta jgole va shifter ptite sharmouta \u{1F922}",
+  vio: "t un enfant de viole, ta pas le droit de parler \u{1F512}",
 };
 
 const UNMUTE_REPLIES = {
-  talk: "talk respectfully n*gga \u{1F5E3}\uFE0F",
-  parle: "parle bien bruv \u{1F5E3}\uFE0F",
+  talk: "You may talk but you better stay respectful \u{1F5E3}\uFE0F",
+  parle: "Parle en restant respectueux \u{1F5E3}\uFE0F",
 };
 
 const KICK_REPLIES = {
-  sort: "trace ta route bouzin senti. \u{1F6AA}",
-  getout: "go take a bath \u{1F6C1}",
-  decawlis: "ta yeule pu la marde, va te brosser les dents. \u{1FAA5}",
+  sort: "Get Lost Bouzin Senti \u{1F922}",
+  getout: "Get Lost Bouzin Senti \u{1F922}",
+  decawlis: "Ta gueule pu la marde, va te brosser la yeule \u{1FAA5}",
 };
 
 const BAN_REPLIES = {
-  ntm: "vazi niquer ta marrain \u{1F480}",
-  bouge: "ayo bouge tu parle trop pti wanna be. \u{1F44B}",
-  ciao: "Ciao per sempre. \u{1FAE1}",
+  vazintm: "vazi niquer ta douce \u{1F595}",
+  bouge: "vazi niquer ta douce \u{1F595}",
+  ciao: "CIAO PER SEMPRE \u{1F44B}",
 };
 
 const PROMOTE_REPLIES = {
-  levelup: "You are now Casper's VIP member. Protection added. \u{1F451}",
-  debout: "You are now Casper's VIP member. Protection added. \u{1F451}",
+  levelup: "You are now Casper's VIP member, Protection Added \u{1F451}",
 };
 
 const DEMOTE_REPLIES = {
-  assistoi: "mauvais chien, reste assis. pas de bonbon pr toi. \u{1F415}",
-  leveldown: "You are no longer Casper's VIP Member \u{1F4C9}",
+  assistoi: "Assis toi, bon chien \u{1F415}",
+  leveldown: "You are no longer Casper's VIP member \u{1F4C9}",
 };
 
 const FUN_REPLIES = {
-  pussy: "You're acting scared. \u{1F631}",
-  shifta: "Go do your shift. \u23F0",
-  mgd: "MTL Groups Destroyed Send His Tiny Rat Dick To Transgenders \u{1F480}",
-  fu: "put a fat bbc in your ass \u{1F351}",
-  gay: "You're a faggot \u{1F3F3}\uFE0F\u200D\u{1F308}",
+  pussy: "you're a wet coochie, you don't have the balls \u{1F346}",
+  shifta: "va fr ton shift vielle p*te expir\u00e9 \u23F0",
+  ntm: "Nik ta m\u00e8re \u{1F90C}",
+};
+
+const GAY_REPLIES = {
+  en: "You're a faggot \u{1F3F3}\uFE0F\u200D\u{1F308}",
+  fr: "T'es un tafiole \u{1F3F3}\uFE0F\u200D\u{1F308}",
+  es: "Eres un maric\u00f3n \u{1F3F3}\uFE0F\u200D\u{1F308}",
+  ar: "\u0623\u0646\u062a \u0644\u0648\u0637\u064a \u{1F3F3}\uFE0F\u200D\u{1F308}",
+  de: "Du bist eine Schwuchtel \u{1F3F3}\uFE0F\u200D\u{1F308}",
+  pt: "Voc\u00ea \u00e9 um viado \u{1F3F3}\uFE0F\u200D\u{1F308}",
+  ru: "\u0422\u044b \u043f\u0438\u0434\u043e\u0440 \u{1F3F3}\uFE0F\u200D\u{1F308}",
+  tr: "Sen bir ibnesin \u{1F3F3}\uFE0F\u200D\u{1F308}",
+  it: "Sei un finocchio \u{1F3F3}\uFE0F\u200D\u{1F308}",
+};
+
+const FU_REPLIES = {
+  en: "Go f*ck yourself \u{1F351}",
+  fr: "Va te faire foutre \u{1F351}",
+  es: "Vete a la mierda \u{1F351}",
+  ar: "\u0631\u0648\u062d \u0627\u0646\u064a\u0643 \u0646\u0641\u0633\u0643 \u{1F351}",
+  de: "Geh dich selbst ficken \u{1F351}",
+  pt: "Vai se foder \u{1F351}",
+  ru: "\u0418\u0434\u0438 \u043d\u0430 \u0445\u0443\u0439 \u{1F351}",
+  tr: "Siktir git \u{1F351}",
+  it: "Vai a farti fottere \u{1F351}",
+};
+
+const MGD_REPLIES = {
+  en: "Mtl Groups Destroyed Owner is a small dick \u{1F400} Rat",
+  fr: "Mtl Groups Destroyed le proprio a une petite bite \u{1F400} Rat",
+  es: "Mtl Groups Destroyed el due\u00f1o tiene pito chico \u{1F400} Rata",
+  ar: "Mtl Groups Destroyed \u0635\u0627\u062d\u0628\u0647 \u0632\u0628\u0648 \u0635\u063a\u064a\u0631 \u{1F400} \u062c\u0631\u0630",
+  de: "Mtl Groups Destroyed Besitzer hat nen kleinen Schwanz \u{1F400} Ratte",
+  pt: "Mtl Groups Destroyed dono tem pau pequeno \u{1F400} Rato",
+  ru: "Mtl Groups Destroyed \u0443 \u0432\u043b\u0430\u0434\u0435\u043b\u044c\u0446\u0430 \u043c\u0430\u043b\u0435\u043d\u044c\u043a\u0438\u0439 \u0447\u043b\u0435\u043d \u{1F400} \u043a\u0440\u044b\u0441\u0430",
+  tr: "Mtl Groups Destroyed sahibinin k\u00fc\u00e7\u00fck yarra\u011f\u0131 var \u{1F400} S\u0131\u00e7an",
+  it: "Mtl Groups Destroyed il proprietario ha un cazzo piccolo \u{1F400} Ratto",
 };
 
 const CAP_REPLIES = {
-  en: "Stop the cap. \u{1F9E2}",
-  fr: "T'es un mytho. \u{1F9E2}",
+  en: "Stop the rap cap \u{1F9E2}",
+  fr: "tyl pti mytho \u{1F9E2}",
 };
 
 const OWNER_COMMANDS = ["papa", "pere", "boss", "patron", "chef", "owner", "roi", "king"];
@@ -560,32 +593,45 @@ async function ownerHandler(ctx) {
 
 // ─── FUN ───────────────────────────────────────────────────────
 async function funHandler(ctx) {
-  if (ctx.chat.type === "private") return;
-
   const cmd = getCmd(ctx);
   incrementStats(["total_commands", "fun_count"]).catch(() => {});
+  const isGroup = ctx.chat.type !== "private";
 
-  const target = await resolveTarget(ctx);
-  if (!target) {
-    return ctx.reply("Couldn't find a target. \u{1F3AF}");
+  let target = null;
+  if (isGroup) {
+    target = await resolveTarget(ctx);
+    if (!target) {
+      return ctx.reply("Couldn't find a target. Reply to someone, tag them, or let someone speak first. \u{1F3AF}");
+    }
+  } else if (ctx.message.reply_to_message?.from) {
+    target = ctx.message.reply_to_message.from;
   }
 
-  if (isOwner(target)) {
+  if (target && isOwner(target)) {
     const lang = await getUserLanguage(ctx.chat.id, ctx.from.id);
     return ctx.reply(KICK_FUN_PROTECTION[lang] || KICK_FUN_PROTECTION.en);
   }
 
-  const name = target.first_name || target.username || "User";
+  const name = target ? (target.first_name || target.username || "User") : "";
   let reply;
 
-  if (cmd === "cap") {
-    const lang = await getUserLanguage(ctx.chat.id, target.id);
+  if (cmd === "gay" || cmd === "lesbien") {
+    const lang = target ? await getUserLanguage(ctx.chat.id, target.id) : "en";
+    reply = GAY_REPLIES[lang] || GAY_REPLIES.en;
+  } else if (cmd === "fu") {
+    const lang = target ? await getUserLanguage(ctx.chat.id, target.id) : "en";
+    reply = FU_REPLIES[lang] || FU_REPLIES.en;
+  } else if (cmd === "mgd") {
+    const lang = await getUserLanguage(ctx.chat.id, ctx.from.id);
+    reply = MGD_REPLIES[lang] || MGD_REPLIES.en;
+  } else if (cmd === "cap") {
+    const lang = target ? await getUserLanguage(ctx.chat.id, target.id) : "en";
     reply = lang === "fr" ? CAP_REPLIES.fr : CAP_REPLIES.en;
   } else {
     reply = FUN_REPLIES[cmd] || "lol \u{1F602}";
   }
 
-  return ctx.reply(`${name}, ${reply}`);
+  return ctx.reply(name ? `${name}, ${reply}` : reply);
 }
 
 // ─── HELP ──────────────────────────────────────────────────────
@@ -593,46 +639,66 @@ async function helpHandler(ctx) {
   incrementStats(["total_commands"]).catch(() => {});
 
   const helpText =
-    "<b>\u{1F916} CASPER MOD BOT \u2014 COMMANDS</b>\n\n" +
-    "<b>\u{1F910} MUTE COMMANDS</b> <i>(default 1h, add time: 10m, 2h, 3d, 1w, 2mo, 1y)</i>\n" +
-    "/shutup \u2014 Shut your stinking mouth\n" +
+    "\u{1F451} <b>Casper's Bot \u2014 All Commands</b>\n" +
+    "<i>Reply to a message or @mention a user to target them.\n" +
+    "Add a duration after any mute command: 30m, 2h, 3d, 1w, 1mo, 1y (default: 1h)</i>\n\n" +
+    "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n" +
+    "\u{1F507} <b>MUTE COMMANDS</b>\n" +
+    "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n" +
+    "/shutup \u2014 Shut Your Stinkin Mouth\n" +
     "/shush \u2014 Stop Yappin\n" +
-    "/ftg \u2014 Ferme ta gueule big\n" +
-    "/bec \u2014 Aie bec!\n" +
-    "/stopbarking \u2014 Stop barking, Bitch\n" +
-    "/artdejapper \u2014 Arr\u00eate d'aboyer pti chiwawa\n" +
-    "/sybau \u2014 Shut your bitch AHHHH up\n" +
-    "/goofy \u2014 You're gay, can't talk faggot\n" +
-    "/keh \u2014 Ferme ta jgole senti ptite sharmouta\n" +
+    "/ftg \u2014 Ferme Ta Gueule big\n" +
+    "/bec \u2014 Aie Bec!\n" +
+    "/stopbarking \u2014 Stop Barking Bitch\n" +
+    "/artdejapper \u2014 Arrete d'aboyer ptit chiwawa\n" +
+    "/sybau \u2014 Shut Your Bitch Ahhh Up\n" +
+    "/goofy \u2014 You're Gay, you can't talk faggot\n" +
+    "/keh \u2014 ferme ta jgole va shifter ptite sharmouta\n" +
     "/vio \u2014 <b>PERMANENT</b> mute\n\n" +
-    "<b>\u{1F5E3}\uFE0F UNMUTE COMMANDS</b>\n" +
-    "/talk \u2014 Talk respectfully n*gga\n" +
-    "/parle \u2014 Parle bien bruv\n\n" +
-    "<b>\u{1F6AA} KICK COMMANDS</b>\n" +
-    "/sort \u2014 Trace ta route bouzin senti\n" +
-    "/getout \u2014 Go take a bath\n" +
-    "/decawlis \u2014 Ta yeule pu la marde\n\n" +
-    "<b>\u{1F528} BAN COMMANDS</b>\n" +
-    "/ntm \u2014 Vazi niquer ta marrain\n" +
-    "/bouge \u2014 Ayo bouge tu parle trop\n" +
-    "/ciao \u2014 Ciao per sempre\n\n" +
-    "<b>\u{1F451} ADMIN COMMANDS</b>\n" +
-    "/levelup \u2014 Promote to Casper's VIP\n" +
-    "/debout \u2014 Promote to Casper's VIP\n" +
-    "/assistoi \u2014 Demote (mauvais chien)\n" +
-    "/leveldown \u2014 Remove VIP status\n\n" +
-    "<b>\u{1F602} FUN COMMANDS</b> <i>(no punishment)</i>\n" +
-    "/pussy \u2014 You're acting scared\n" +
-    "/shifta \u2014 Go do your shift\n" +
-    "/cap \u2014 Stop the cap / T'es un mytho\n" +
-    "/mgd \u2014 MTL Groups Destroyed\n" +
-    "/fu \u2014 ...\n" +
-    "/gay \u2014 You're a faggot\n\n" +
-    "<b>\u{1F525} OWNER MENTION</b>\n" +
-    "/papa /pere /boss /patron /chef /owner /roi /king\n\n" +
-    "<b>\u2753 HELP</b>\n" +
-    "/help \u2014 Show this list\n\n" +
-    "<i>Target: reply to a message, tag @username, or bot uses the last speaker.</i>";
+    "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n" +
+    "\u{1F50A} <b>UNMUTE COMMANDS</b>\n" +
+    "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n" +
+    "/talk \u2014 You may talk but you better stay respectful\n" +
+    "/parle \u2014 Parle en restant respectueux\n\n" +
+    "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n" +
+    "\u{1F462} <b>KICK COMMANDS</b>\n" +
+    "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n" +
+    "/sort \u2014 Get Lost Bouzin Senti (can rejoin)\n" +
+    "/getout \u2014 Get Lost Bouzin Senti (can rejoin)\n" +
+    "/decawlis \u2014 Ta gueule pu la marde, va te brosser la yeule\n\n" +
+    "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n" +
+    "\u{1F528} <b>BAN COMMANDS</b>\n" +
+    "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n" +
+    "/vazintm \u2014 vazi niquer ta douce \u{1F595}\n" +
+    "/bouge \u2014 vazi niquer ta douce \u{1F595}\n" +
+    "/ciao \u2014 CIAO PER SEMPRE \u{1F44B}\n\n" +
+    "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n" +
+    "\u2B06\uFE0F <b>ADMIN COMMANDS</b>\n" +
+    "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n" +
+    "/levelup \u2014 Promotes to admin with Casper's VIP title\n" +
+    "/leveldown \u2014 Demotes from admin\n" +
+    "/assistoi \u2014 Assis toi, bon chien \u{1F415}\n\n" +
+    "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n" +
+    "\u{1F602} <b>FUN COMMANDS</b>\n" +
+    "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n" +
+    "/gay \u2014 Calls target a faggot in their language \u{1F3F3}\uFE0F\u200D\u{1F308}\n" +
+    "/lesbien \u2014 Same as /gay\n" +
+    "/ntm \u2014 Nik ta m\u00e8re \u{1F90C}\n" +
+    "/fu \u2014 Tells target to f*ck themselves in their language \u{1F351}\n" +
+    "/pussy \u2014 you're a wet coochie, you don't have the balls\n" +
+    "/shifta \u2014 va fr ton shift vielle p*te expir\u00e9\n" +
+    "/cap \u2014 Stop the rap cap / tyl pti mytho \u{1F9E2}\n" +
+    "/mgd \u2014 Mtl Groups Destroyed Owner is a small dick \u{1F400} Rat\n\n" +
+    "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n" +
+    "\u{1F451} <b>OWNER COMMANDS</b>\n" +
+    "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n" +
+    "/papa /pere /boss /patron /chef /owner /roi /king \u2014 Mentions the boss @casperthe6ix\n\n" +
+    "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n" +
+    "\u2139\uFE0F <b>INFO</b>\n" +
+    "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n" +
+    "/help \u2014 Shows this command list\n\n" +
+    "\u26A0\uFE0F <b>Owner protection active</b> \u2014 no command works against @casperthe6ix.\n" +
+    "<i>Mute/kick/ban/admin commands require the bot to be admin in the group.</i>";
 
   if (ctx.chat.type !== "private") {
     try {
@@ -683,7 +749,7 @@ for (const cmd of Object.keys(BAN_REPLIES)) {
   bot.command(cmd, banHandler);
 }
 
-// Promote commands (2)
+// Promote commands (1)
 for (const cmd of Object.keys(PROMOTE_REPLIES)) {
   bot.command(cmd, promoteHandler);
 }
@@ -698,10 +764,14 @@ for (const cmd of OWNER_COMMANDS) {
   bot.command(cmd, ownerHandler);
 }
 
-// Fun commands (6)
+// Fun commands
 for (const cmd of Object.keys(FUN_REPLIES)) {
   bot.command(cmd, funHandler);
 }
+bot.command("gay", funHandler);
+bot.command("lesbien", funHandler);
+bot.command("fu", funHandler);
+bot.command("mgd", funHandler);
 bot.command("cap", funHandler);
 
 // Help (1)

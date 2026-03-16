@@ -74,13 +74,13 @@ Telegram Cloud ──POST──▸ Vercel /api/bot ──▸ Telegraf ──▸ 
                     └──────────────────┘
 ```
 
-## Commands (37 total)
+## Commands (38 total)
 - **Mute (10):** /shutup, /shush, /ftg, /bec, /stopbarking, /artdejapper, /sybau, /goofy, /keh, /vio
 - **Unmute (2):** /talk, /parle
 - **Kick (3):** /sort, /getout, /decawlis
-- **Ban (3):** /ntm, /bouge, /ciao
-- **Admin (4):** /levelup, /debout, /assistoi, /leveldown
-- **Fun (6):** /pussy, /shifta, /cap, /mgd, /fu, /gay
+- **Ban (3):** /vazintm, /bouge, /ciao
+- **Admin (3):** /levelup, /assistoi, /leveldown
+- **Fun (8):** /pussy, /shifta, /ntm, /cap, /mgd, /fu, /gay, /lesbien
 - **Owner (8):** /papa, /pere, /boss, /patron, /chef, /owner, /roi, /king
 - **Help (1):** /help
 
