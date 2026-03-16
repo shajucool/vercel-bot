@@ -12,22 +12,32 @@ const OWNER_USERNAME = "casperthe6ix";
 // ═══════════════════════════════════════════════════════════════
 //  MONGODB (cached connection for warm serverless invocations)
 // ═══════════════════════════════════════════════════════════════
+let cachedClient = null;
 let cachedDb = null;
 
 async function getDb() {
   if (cachedDb) return cachedDb;
   if (!process.env.MONGO_URL) return null;
   try {
-    const client = await MongoClient.connect(process.env.MONGO_URL);
-    cachedDb = client.db(process.env.DB_NAME || "casper_bot");
-    await Promise.all([
+    if (!cachedClient) {
+      cachedClient = new MongoClient(process.env.MONGO_URL, {
+        serverSelectionTimeoutMS: 3000,
+        connectTimeoutMS: 3000,
+        socketTimeoutMS: 5000,
+      });
+      await cachedClient.connect();
+    }
+    cachedDb = cachedClient.db(process.env.DB_NAME || "casper_bot");
+    Promise.all([
       cachedDb.collection("last_speakers").createIndex({ chat_id: 1 }, { unique: true }).catch(() => {}),
       cachedDb.collection("user_cache").createIndex({ username: 1 }, { unique: true }).catch(() => {}),
       cachedDb.collection("user_messages").createIndex({ chat_id: 1, user_id: 1 }, { unique: true }).catch(() => {}),
-    ]);
+    ]).catch(() => {});
     return cachedDb;
   } catch (e) {
     console.error("MongoDB connection failed:", e.message);
+    cachedClient = null;
+    cachedDb = null;
     return null;
   }
 }
@@ -379,7 +389,7 @@ bot.use(async (ctx, next) => {
       )
     );
 
-    await Promise.all(ops).catch(() => {});
+    Promise.all(ops).catch(() => {});
   }
 
   return next();
@@ -781,13 +791,15 @@ bot.command("help", helpHandler);
 //  VERCEL SERVERLESS HANDLER
 // ═══════════════════════════════════════════════════════════════
 export default async function handler(req, res) {
+  if (req.method !== "POST") {
+    return res.status(200).json({ status: "alive" });
+  }
   try {
-    if (req.method === "POST") {
-      await bot.handleUpdate(req.body);
-    }
+    await bot.handleUpdate(req.body, res);
   } catch (error) {
     console.error("Error handling update:", error);
   }
-
-  res.status(200).send("ok");
+  if (!res.headersSent) {
+    res.status(200).end();
+  }
 }
